@@ -1,0 +1,21 @@
+/*--- topmenu ---*/
+@media all and (max-width: 1200px){
+	.menu-item{ margin-left: 0.5rem; }
+}
+
+.topmenu {
+	background: $color-violet;
+	&.navbar-dark .navbar-nav .nav-link {
+		color: $color-white;
+		&:hover, &:focus {
+			color: $color-gray;
+		}
+	}
+}
+.menu-brand, .menu-brand>a {
+	font-size: 1.5rem;
+}
+.menu-item {
+	margin-left: 2rem;
+	font-size: 1.4rem;
+}

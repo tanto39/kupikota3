@@ -1,0 +1,19 @@
+/*--- footer ---*/
+.footer {
+	background: #626584;
+	a:hover {
+		color: $color-gray;
+	}
+	&-brand {
+		font-size: 1.4rem;
+		&__link {
+			margin-left: 0.3em;
+		}
+	}
+}
+.footer, .footer a {
+	color: $color-white;
+}
+.footer {
+	font-size: 1.2rem;
+}

@@ -1,0 +1,27 @@
+/*--- cards ---*/
+a.card-info{
+  color:$color-white;
+  background: #f0f8ff;
+  border: 3px solid #7767a7;
+  border-radius: 1em;
+  height: 100%;
+  transition: box-shadow 0.1s ease-in-out;
+  overflow: hidden;
+  &:hover{
+    box-shadow: 0px 0px 0.5em rgba(0,0,0,1);
+  }
+}
+.card-info__descr{
+  flex: 1 1 50%;
+  color:#333366;
+  font-size: 1.2em;
+}
+h1, h2{
+  border-bottom: 1px solid $color-vlight;
+  padding-bottom: 1rem;
+}
+.card-info__img-wrap{
+  flex: 1 1 50%;
+  padding: 1.2em;
+  background: #d6e3ef;
+}
