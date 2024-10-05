@@ -7,7 +7,10 @@ $color-vlight: #757898;
 a {
   text-decoration: none; 
 }
-
+::selection {
+  color: $color-white;
+  background-color: $color-vlight;
+}
 /*--- icons ---*/
 .cat-icon {
   color: $color-white;
